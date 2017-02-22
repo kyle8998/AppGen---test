@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mail</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../Assets/css/ratchet.min.css">
+    <link rel="stylesheet" href="../Assets/css/ratchet-theme-ios.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../Assets/js/ratchet.min.js"></script>
+
+    <!-- Switch Toggles -->
+    <link rel="stylesheet" href="../Assets/css/switchery.css" />
+    <script src="../Assets/js/switchery.js"></script>
+
+    <!-- Progress Bar Animation -->
+    <style>
+    @keyframes width {
+           0%, 100% {
+           transition-timing-function: cubic-bezier(1, 0, 0.65, 0.85);
+      }
+      0% {
+           width: 20%;
+      }
+       100% {
+          width: 30%;
+      }
+    }
+
+    </style>
+
+
+  </head>
+  <body>
+    <div class="bar bar-nav">
+      <div class=backicon>
+        <a class="icon icon-left-nav pull-left" href="home.html" data-transition="slide-out"></a>
+      </div>
+
+      <div >
+        <a class="back" href="home.html">Back</a>
+      </div>
+
+      <div class="header1"><h1 class="title">AppGen</h1></div>
+
+
+      <!-- Progress Bar -->
+            <div class="containerlower">
+              <div class="progress">
+                <div class="progress-bar">
+
+                </div>
+              </div>
+            </div>
+
+
+    </div>
+
+    <div class="content">
+
+      <br>
+
+      <p>Application 1 - Create</p>
+
+
+      <ul class="table-view">
+        <li class="table-view-cell">
+
+
+            User Reviews
+            <p></p>
+
+            
+            <div id="toggles">
+              <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" checked/>
+              <label for="checkbox1" class="checkbox-label" data-off="off" data-on="on"></label>
+            </div>
+
+
+        </li>
+        <li class="table-view-cell">
+
+            Ratings
+            <p></p>
+
+        </li>
+        <li class="table-view-cell">
+
+            Download Count
+            <p></p>
+
+        </li>
+        <li class="table-view-cell">
+
+            Verified Developer
+            <p></p>
+
+        </li>
+        <li class="table-view-cell">
+
+            Paid Application
+            <p></p>
+
+        </li>
+      </ul>
+
+      <br>
+      <div class="center">
+        <p>Create</p>
+      </div>
+    </div><!-- /.content -->
+
+  </body>
+</html>
